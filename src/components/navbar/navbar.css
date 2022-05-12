@@ -3,7 +3,7 @@
     left: 40px;
     top: 50%;
     transform: translateY(-50%) translateX(-100px);
-    background-color: rgba(0, 0, 0, 0.596);
+    background-color: rgba(0, 0, 0, 0.294);
     padding: 15px 10px;
     display: flex;
     flex-direction: column;
@@ -21,6 +21,7 @@
       opacity: 1;
     }
 }
+
 .navigation a {
     position: relative;
     background-color: rgba(0, 0, 0, 0.397);
@@ -35,20 +36,61 @@
     fill: rgb(209, 217, 252);
 }
   
-.navigation .icon.active-nav {
-    fill: rgb(88, 117, 248);
-    border: 2px solid rgb(88, 117, 248);
+.navigation .icon.home:hover {
+  fill: rgba(82, 169, 250, 0.151);
+  border: 2px solid rgb(82, 169, 250, 0.192);
 }
-  
-.navigation .icon:hover {
-    fill: rgba(88, 117, 248, 0.151);
-    border: 2px solid rgba(88, 117, 248, 0.192);
+
+.navigation .icon.active-nav.home, 
+.navigation .icon.active-nav.home:hover {
+    fill: rgb(82, 169, 250);
+    border: 2px solid rgb(82, 169, 250);
 }
-  
-.navigation .icon.active-nav:hover {
-    fill: rgb(88, 117, 248);
-    border: 2px solid rgb(88, 117, 248);
+
+.navigation .icon.about:hover {
+  fill: rgba(255, 0, 234, 0.151);
+  border: 2px solid rgb(255, 0, 234, 0.192);
 }
+
+.navigation .icon.active-nav.about, 
+.navigation .icon.active-nav.about:hover {
+    fill: rgb(255, 0, 234);
+    border: 2px solid rgb(255, 0, 234);
+}
+
+.navigation .icon.projects:hover {
+  fill: rgba(169, 240, 4, 0.151);
+  border: 2px solid rgb(169, 240, 4, 0.192);
+}
+
+.navigation .icon.active-nav.projects, 
+.navigation .icon.active-nav.projects:hover {
+    fill: rgb(169, 240, 4);
+    border: 2px solid rgb(169, 240, 4);
+}
+
+.navigation .icon.contact:hover {
+  fill: rgba(183, 0, 255, 0.151);
+  border: 2px solid rgb(183, 0, 255, 0.192);
+}
+
+.navigation .icon.active-nav.contact, 
+.navigation .icon.active-nav.contact:hover {
+    fill: rgb(183, 0, 255);
+    border: 2px solid rgb(183, 0, 255);
+}
+
+.navigation .icon.footer:hover {
+  fill: rgba(0, 255, 255, 0.151);
+  border: 2px solid rgb(0, 255, 255, 0.192);
+}
+
+.navigation .icon.active-nav.footer, 
+.navigation .icon.active-nav.footer:hover {
+    fill: rgb(0, 255, 255);
+    border: 2px solid rgb(0, 255, 255);
+}
+
   
 @media (max-width: 820px) {
     .navigation {

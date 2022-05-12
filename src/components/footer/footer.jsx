@@ -3,10 +3,14 @@ import { BsMouse } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { TiSocialGithub } from "react-icons/ti";
 import { TiSocialLinkedin } from "react-icons/ti";
+import { DiReact } from "react-icons/di";
 
 function Footer() {
     return (
         <div id="footer" className="container footer-container">
+            <div className="react">
+                <DiReact className="logo" />
+            </div>
             <h1>
                 created using React
                 <a href="#home">

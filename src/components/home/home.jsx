@@ -19,8 +19,8 @@ function Home() {
           <span className='circle'></span>
           <span className='circle'></span>
         </div>
-        <h2>Click me</h2>
-        <img src={image} alt='cool picture here' />
+        <h3>Click me</h3>
+        <img src={image} alt='' />
       </div>
       <a href='#footer' className='scroll-down'>
         <hr />

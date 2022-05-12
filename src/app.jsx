@@ -8,8 +8,9 @@ import Footer from  "./components/footer/footer.jsx";
 const WebContent = () => {
   return (
     <>
-      <div className="bg-circle1"></div>
-      <div className="bg-circle2"></div>
+      <div className="background-circle1"></div>
+      <div className="background-circle2"></div>
+      <div className="background-circle3"></div>
       <Header />
       <Navbar />
       <Home />

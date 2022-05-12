@@ -9,19 +9,19 @@ function Navbar() {
     return (    
         <div className="navigation">
             <a href="#home">
-                <AiOutlineHome className="icon active-nav" />
+                <AiOutlineHome className="icon active-nav home" />
             </a>
             <a href="#about">
-                <AiOutlineUser className="icon" />
+                <AiOutlineUser className="icon about" />
             </a>
             <a href="#projects">
-                <AiOutlineRocket className="icon" />
+                <AiOutlineRocket className="icon projects" />
             </a>
             <a href="#contact">
-                <BiMessageRoundedDots className="icon" />
+                <BiMessageRoundedDots className="icon contact" />
             </a>
             <a href="#footer">
-                <BsArrowDownCircle className="icon" />
+                <BsArrowDownCircle className="icon footer" />
             </a>
         </div>
     );
