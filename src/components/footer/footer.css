@@ -1,0 +1,103 @@
+.footer-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 30vh;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.react {
+  padding: 10px;
+  margin: 20px auto;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.react .logo {
+  color: rgb(0, 255, 255);
+  position: relative;
+  height: 120px;
+  width: 120px;
+  background-color: none;
+  animation: spin 10s linear infinite, change 20s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes change {
+  0% {
+    fill: rgb(0, 255, 255);
+  }
+  25% {
+    fill: rgb(255, 0, 234);
+  }
+  50% {
+    fill: rgb(169, 240, 4);
+  }
+  75% {
+    fill: rgb(183, 0, 255);
+  }
+  100% {
+    fill: rgb(0, 255, 255);
+  }
+}
+
+.container.footer-container h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.container.footer-container h2 {
+  font-family: "Open Sans Condensed";
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.container.footer-container h2:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.social-links {
+  padding: 10px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links .social {
+  height: 45px;
+  width: 45px;
+  background-color: rgba(0, 0, 0, 0.548);
+  margin: 0 5px;
+  padding: 10px;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.social-links .social:hover {
+  background-color: (0, 0, 0, 0.336);
+  fill: var(--color-primary);
+}
