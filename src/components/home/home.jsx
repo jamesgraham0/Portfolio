@@ -1,7 +1,7 @@
 import './home.css';
 import Buttons from '../button/button';
 import { BsMouse } from 'react-icons/bs';
-import image from '../images/napolean-dynamite.jpg';
+import image from '../images/me.jpg';
 
 function Home() {
   return (
