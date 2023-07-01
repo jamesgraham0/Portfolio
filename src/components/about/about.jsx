@@ -1,11 +1,14 @@
 import "./about.css";
 import Projects from "../projects/projects";
+import { Slide } from "react-awesome-reveal";
 
 function About() {
     return (
-        <div id="projects" className="container about-container">
-            <Projects />
-        </div>
+        <Slide direction='right'>
+            <div id="projects" className="container about-container">
+                <Projects />
+            </div>
+        </Slide>
     )
 }
 

@@ -2,6 +2,7 @@ import './home.css';
 import Buttons from '../button/button';
 import { BsMouse } from 'react-icons/bs';
 import image from '../images/me.jpg';
+import Experiences from '../experiences/experiences';
 
 function Home() {
   return (
@@ -19,8 +20,15 @@ function Home() {
           <span className='circle'></span>
           <span className='circle'></span>
         </div>
-        <h3>Click me</h3>
-        <img src={image} alt='' />
+        <div className='click-me-container'>
+          <p className='click-me'>Click me</p>
+          <svg id="svg" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" >
+            <path strokeLinecap="round" strokeLinejoin="round" className="draw-arrow" d="M11.3,2.5c-5.8,5-8.7,12.7-9,20.3s2,15.1,5.3,22c6.7,14,18,25.8,31.7,33.1" />
+            <path strokeLinecap="round" strokeLinejoin="round" className="tail-1" d="M40.6,78.1C39,71.3,37.2,64.6,35.2,58" />
+            <path strokeLinecap="round" strokeLinejoin="round" className="tail-2" d="M39.8,78.5c-7.2,1.7-14.3,3.3-21.5,4.9" />
+          </svg>
+        </div>
+        <img id='me-img' src={image} alt='' />
       </div>
       <a href='#footer' className='scroll-down'>
         <hr />
@@ -30,11 +38,12 @@ function Home() {
       </a>
       
       <h2 id="about" >
-        <span>About Me</span> <br />
+        <span>About Me</span> <br/>
         <p>
-          I'm a Computer Science student at the University of British Columbia. I love to stay active, watch movies, and play my guitar! 
+          I study Computer Science at the University of British Columbia. I love to stay active, watch movies, and play my guitar! 
         </p>
       </h2>
+      <Experiences/>
       <Buttons />
     </div>
   );

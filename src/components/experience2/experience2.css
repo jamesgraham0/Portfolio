@@ -1,0 +1,24 @@
+.experience2-container {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+    left: 365px;
+    top: 35px;
+    background-color: rgba(99, 51, 230, 0.1);
+    flex-direction: row;
+    width: 60%;
+    height: calc(40%);
+    transition: transform 0.2s linear;
+}
+
+.experience2-container:hover {
+    transform: scale(1.02);
+}
+
+.title-container2 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-bottom: 20px;
+}

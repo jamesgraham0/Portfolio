@@ -1,0 +1,25 @@
+.experience1-container {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+    background-color: rgb(82, 225, 250, 0.1);
+    width: 60%;
+    height: calc(40%);
+    transition: transform 0.2s linear;
+}
+
+.experience1-container:hover {
+    transform: scale(1.02);
+}
+
+.title-container1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+  
+.experience-img {
+    border-radius: 10px;
+    margin: 10px;
+}

@@ -14,9 +14,6 @@ function Footer() {
             <h1>
                 created using React
                 <a href="#home">
-                    <h2>
-                        <BsMouse /> - scroll up -
-                    </h2>
                 </a>
             </h1>
             <div className="social-links">

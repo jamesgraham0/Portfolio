@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.home-container .logo {
+.logo {
   position: inherit;
   margin-top: -50px;
   height: 520px;
@@ -21,7 +21,7 @@
   user-select: none;
 }
 
-.home-container .logo .hover-show {
+.logo .hover-show {
   position: absolute;
   height: 300px;
   width: 300px;
@@ -33,7 +33,7 @@
   cursor: pointer;
 }
 
-.home-container .logo .hover-show.active {
+.logo .hover-show.active {
   animation: showspin 25s linear 1s infinite;
 }
 
@@ -43,7 +43,7 @@
   }
 }
 
-.home-container .logo .circle {
+.logo .circle {
   position: absolute;
   height: 100px;
   width: 100px;
@@ -56,11 +56,11 @@
   opacity: 0;
 }
 
-.home-container .logo .hover-show.active .circle {
+.logo .hover-show.active .circle {
   opacity: 1;
 }
 
-.home-container .logo .hover-show.active .circle:nth-child(1) {
+.logo .hover-show.active .circle:nth-child(1) {
   background: url(../images/c-plus-plus.png);
   background-size: cover;
   background-position: center;
@@ -68,7 +68,7 @@
   transform: translateX(210px) translateY(0px);
 }
 
-.home-container .logo .hover-show.active .circle:nth-child(2) {
+.logo .hover-show.active .circle:nth-child(2) {
   position: absolute;
   transform: translateX(170px) translateY(123px);
   background: url(../images/c.png);
@@ -76,7 +76,7 @@
   background-position: center;
 }
 
-.home-container .logo .hover-show.active .circle:nth-child(3) {
+.logo .hover-show.active .circle:nth-child(3) {
   position: absolute;
   transform: translateX(65px) translateY(200px);
   background: url(../images/css.png);
@@ -84,7 +84,7 @@
   background-position: center;
 }
 
-.home-container .logo .hover-show.active .circle:nth-child(4) {
+.logo .hover-show.active .circle:nth-child(4) {
   position: absolute;
   transform: translateX(-65px) translateY(200px);
   background: url(../images/html.png);
@@ -92,7 +92,7 @@
   background-position: center;
 }
 
-.home-container .logo .hover-show.active .circle:nth-child(5) {
+.logo .hover-show.active .circle:nth-child(5) {
   position: absolute;
   transform: translateX(-170px) translateY(123px);
   background: url(../images/java.png);
@@ -101,7 +101,7 @@
   background-position: center;
 }
 
-.home-container .logo .hover-show.active .circle:nth-child(6) {
+.logo .hover-show.active .circle:nth-child(6) {
   position: absolute;
   transform: translateX(-210px) translateY(0px);
   background: url(../images/js.jpg);
@@ -109,7 +109,7 @@
   background-position: center;
 }
 
-.home-container .logo .hover-show.active .circle:nth-child(7) {
+.logo .hover-show.active .circle:nth-child(7) {
   position: absolute;
   transform: translateX(-170px) translateY(-123px);
   background: url(../images/webgl.png);
@@ -118,7 +118,7 @@
   background-position: center;
 }
 
-.home-container .logo .hover-show.active .circle:nth-child(8) {
+.logo .hover-show.active .circle:nth-child(8) {
   position: absolute;
   transform: translateX(-65px) translateY(-200px);
   background: url(../images/python.png);
@@ -126,7 +126,7 @@
   background-position: center;
 }
 
-.home-container .logo .hover-show.active .circle:nth-child(9) {
+.logo .hover-show.active .circle:nth-child(9) {
   position: absolute;
   transform: translateX(65px) translateY(-200px);
   background: url(../images/react.png);
@@ -134,7 +134,7 @@
   background-position: center;
 }
 
-.home-container .logo .hover-show.active .circle:nth-child(10) {
+.logo .hover-show.active .circle:nth-child(10) {
   position: absolute;
   transform: translateX(170px) translateY(-123px);
   background: url(../images/ts.png);
@@ -142,12 +142,12 @@
   background-position: center;
 }
 
-.home-container img {
+#me-img {
   position: absolute;
-  height: 300px;
-  width: 250px;
-  border-radius: 50%;
-  border: 3px solid var(--color-primary);
+  height: 260px;
+  width: 170px;
+  border-radius: 30%;
+  border: 1px solid var(--color-primary);
   transform: translate(-200px);
   opacity: 0;
   animation: fade-in 1s ease 1 0.5s forwards;
@@ -160,14 +160,23 @@
   }
 }
 
-.home-container h3 {
-  position: relative;
-  margin-top: 15px;
-  font-size: 21px;
-  font-weight: 500;
+.click-me-container {
+  position: absolute;
+  top: 50px;
 }
 
-.home-container h2 {
+.click-me {
+  position: absolute;
+  transform: translateX(-37%) rotate(30deg);
+  transform-origin: right;
+
+  color: var(--color-secondary);
+  margin-top: auto;
+  font-size: 24px;
+  font-weight: 1000;
+}
+
+h2 {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -177,7 +186,7 @@
   margin-top: 50px;
 }
 
-.home-container h2 span {
+h2 span {
   font-size: 25px;
   opacity: 0.8;
   padding-bottom: 5px;
@@ -185,7 +194,7 @@
   font-family: "Open Sans Condensed", sans-serif;
 }
 
-.home-container h2 p {
+h2 p {
   font-size: 20px;
   opacity: 1;
   font-weight: 100;
@@ -197,6 +206,7 @@
   transform: rotate(90deg);
   position: absolute;
   right: 0;
+  top: 18%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -233,7 +243,7 @@
     overflow: hidden;
   }
 
-  .home-container .logo {
+  .logo {
     position: inherit;
     height: 220px;
     width: 220px;
@@ -244,7 +254,7 @@
     user-select: none;
   }
 
-  .home-container .logo .hover-show {
+  .logo .hover-show {
     position: absolute;
     height: 220px;
     width: 220px;
@@ -256,7 +266,7 @@
     cursor: pointer;
   }
 
-  .home-container .logo .circle {
+  .logo .circle {
     position: absolute;
     height: 90px;
     width: 90px;
@@ -269,18 +279,7 @@
     opacity: 0;
   }
 
-  .home-container img {
-    position: absolute;
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    border: 3px solid rgb(108, 161, 197);
-    transform: translate(-200px);
-    opacity: 0;
-    animation: fade-in 1s ease 1 0.5s forwards;
-  }
-
-  .home-container h2 {
+  h2 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -290,7 +289,7 @@
     margin-top: 200px;
   }
 
-  .home-container h2 span {
+  h2 span {
     font-size: 25px;
     opacity: 0.8;
     padding-bottom: 5px;
@@ -298,7 +297,7 @@
     font-family: "Open Sans Condensed", sans-serif;
   }
 
-  .home-container h2 p {
+  h2 p {
     font-size: 25px;
     font-weight: 100;
     font-family: "Open Sans", sans-serif;
@@ -318,7 +317,7 @@
     overflow: hidden;
   }
 
-  .home-container .logo {
+  .logo {
     position: inherit;
     height: 220px;
     width: 220px;
@@ -329,7 +328,7 @@
     user-select: none;
   }
 
-  .home-container .logo .hover-show {
+  .logo .hover-show {
     position: absolute;
     height: 220px;
     width: 220px;
@@ -341,7 +340,7 @@
     cursor: pointer;
   }
 
-  .home-container .logo .circle {
+  .logo .circle {
     position: absolute;
     height: 75px;
     width: 75px;
@@ -354,18 +353,7 @@
     opacity: 0;
   }
 
-  .home-container img {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: 3px solid rgb(108, 161, 197);
-    transform: translate(-200px);
-    opacity: 0;
-    animation: fade-in 1s ease 1 0.5s forwards;
-  }
-
-  .home-container h2 {
+  h2 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -375,7 +363,7 @@
     margin-top: 200px;
   }
 
-  .home-container h2 span {
+  h2 span {
     font-size: 22px;
     opacity: 0.8;
     padding-bottom: 5px;
@@ -383,7 +371,7 @@
     font-family: "Open Sans Condensed", sans-serif;
   }
 
-  .home-container h2 p {
+  h2 p {
     font-size: 18px;
     font-weight: 100;
     font-family: "Open Sans", sans-serif;
@@ -415,7 +403,7 @@
     overflow: hidden;
   }
 
-  .home-container .logo {
+  .logo {
     position: inherit;
     height: 180px;
     width: 180px;
@@ -426,7 +414,7 @@
     user-select: none;
   }
 
-  .home-container .logo .hover-show {
+  .logo .hover-show {
     position: absolute;
     height: 180px;
     width: 180px;
@@ -438,7 +426,7 @@
     cursor: pointer;
   }
 
-  .home-container .logo .circle {
+  .logo .circle {
     position: absolute;
     height: 65px;
     width: 65px;
@@ -451,18 +439,7 @@
     opacity: 0;
   }
 
-  .home-container img {
-    position: absolute;
-    height: 185px;
-    width: 185px;
-    border-radius: 50%;
-    border: 3px solid rgb(108, 161, 197);
-    transform: translate(-200px);
-    opacity: 0;
-    animation: fade-in 1s ease 1 0.5s forwards;
-  }
-
-  .home-container h2 {
+  h2 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -472,7 +449,7 @@
     margin-top: 250px;
   }
 
-  .home-container h2 span {
+  h2 span {
     font-size: 22px;
     opacity: 0.8;
     padding-bottom: 5px;
@@ -480,9 +457,58 @@
     font-family: "Open Sans Condensed", sans-serif;
   }
 
-  .home-container h2 p {
+  h2 p {
     font-size: 18px;
     font-weight: 100;
     font-family: "Open Sans", sans-serif;
+  }
+}
+
+.draw-arrow {
+  position: absolute;
+  stroke-width: 3;
+  stroke: var(--color-secondary); 
+  fill: none;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800; 
+  animation: draw 5s forwards infinite;
+  animation-delay: 2s;
+}
+
+.tail-1 {
+  stroke-width: 3;
+  stroke: var(--color-secondary); 
+  fill: none;
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400; 
+  animation: tail-1 5s forwards infinite;
+  animation-delay: 2s; 
+}
+
+.tail-2 {
+  stroke-width: 3;
+  stroke: var(--color-secondary); 
+  fill: none;
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400; 
+  animation: tail-2 5s forwards infinite;
+  animation-delay: 2s;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes tail-1 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes tail-2 {
+  to {
+    stroke-dashoffset: 0;
   }
 }
