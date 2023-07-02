@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31ad1022.css",
+    "main.js": "/static/js/main.7f69e89a.js",
+    "static/media/env-map.mp4": "/static/media/env-map.84dc5963bc4ec96ea07d.mp4",
+    "static/media/grade-calculator.mp4": "/static/media/grade-calculator.7a1459290481783f026e.mp4",
+    "static/media/env-map.png": "/static/media/env-map.249c3fa25eb1adfbbe48.png",
+    "static/media/neural-network.png": "/static/media/neural-network.e7461744f837cd1f21ac.png",
+    "static/media/tower-defense.png": "/static/media/tower-defense.42e539ee24af0d7703c1.png",
+    "static/media/grade-calculator.png": "/static/media/grade-calculator.663abd880f8701ca5f8c.png",
+    "static/media/spotify.mp4": "/static/media/spotify.8893d1df13161def9e02.mp4",
+    "static/media/pano-stitching.png": "/static/media/pano-stitching.ee5b68ba3a3fa4bb2307.png",
+    "static/media/me.jpg": "/static/media/me.9729854f4bd0f1212f5a.jpg",
+    "static/media/SIFT1.png": "/static/media/SIFT1.e4f94cf2cdcf59748145.png",
+    "static/media/smtp-pop3.png": "/static/media/smtp-pop3.92a8379135150fa0b0cf.png",
+    "static/media/translink.png": "/static/media/translink.c82742f129eefc347f86.png",
+    "static/media/spotify.png": "/static/media/spotify.47469494c43874d2d2e6.png",
+    "static/media/react.png": "/static/media/react.23fd0138effeef952d73.png",
+    "static/media/webgl.png": "/static/media/webgl.a3668e232ca1fcef73ac.png",
+    "static/media/amazon-logo.png": "/static/media/amazon-logo.9091a94690b61d563a37.png",
+    "static/media/Equitable-logo.png": "/static/media/Equitable-logo.ab4a3919657f5fde307f.png",
+    "static/media/ts.png": "/static/media/ts.17936c69824e11a996c4.png",
+    "static/media/c-plus-plus.png": "/static/media/c-plus-plus.bac6af85fe3ff5796f13.png",
+    "static/media/html.png": "/static/media/html.fd1fe32f1127d850fa39.png",
+    "static/media/css.png": "/static/media/css.cbea6150e2917bd6f0f3.png",
+    "static/media/java.png": "/static/media/java.6c64373d3b7415758078.png",
+    "index.html": "/index.html",
+    "main.31ad1022.css.map": "/static/css/main.31ad1022.css.map",
+    "main.7f69e89a.js.map": "/static/js/main.7f69e89a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31ad1022.css",
+    "static/js/main.7f69e89a.js"
+  ]
+}
