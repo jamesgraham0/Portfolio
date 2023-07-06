@@ -9,7 +9,7 @@ function Header() {
                 </p>
                 James
             </h3>
-            <h2>Computer Science is my passion</h2>
+            <h4 id='passion'>Computer Science is my passion</h4>
         </div>
     );
 }

@@ -36,7 +36,7 @@ function Home() {
         <BsMouse className='scroll' />
         <hr />
       </a>
-      
+      <Buttons />
       <h2 id="about" >
         <span>About Me</span> <br/>
         <p>
@@ -44,7 +44,6 @@ function Home() {
         </p>
       </h2>
       <Experiences/>
-      <Buttons />
     </div>
   );
 }

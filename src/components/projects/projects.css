@@ -45,6 +45,7 @@
   margin-top: 20px;
   background-size: contain;
   background-position: center;
+  margin: 20px;
 }
 
 .projects-container .project h1 {
@@ -61,81 +62,102 @@
   margin-bottom: 20px;
 }
 
+.projects-container .project .content.spotify-votes {
+  background: rgba(0, 0, 0, 0.103) url(/src/components/images/spotify-votes.jpg);
+  background-position: center;
+  background-size: 190px;
+  background-repeat: no-repeat;
+}
+
+.projects-container .project .content.note-sharing-application {
+  background: rgba(0, 0, 0, 0.103);
+  background-position: center;
+  background-size: 450px;
+  background-repeat: no-repeat;
+}
+
+.projects-container .project .content.machine-learning {
+  background: rgba(0, 0, 0, 0.103) url(/src/components/images/machine-learning.png);
+  background-position: center;
+  background-size: 450px;
+  background-repeat: no-repeat;
+}
+
 .projects-container .project .content.spotify {
-  background: rgba(255, 255, 255, 0.103) url(/src/media/spotify.png);
+  background: rgba(0, 0, 0, 0.103) url(/src/media/spotify.png);
   background-position: center;
   background-size: 450px;
 }
 
 .projects-container .project .content.spotify:hover {
-  background: rgba(255, 255, 255, 0.103) url(/src/media/spotify.mp4);
+  background: rgba(0, 0, 0, 0.103) url(/src/media/spotify.mp4);
   background-position: center;
   background-size: 900px;
 }
 
 .projects-container .project .content.env-map {
-  background: rgba(255, 255, 255, 0.103) url(/src/media/env-map.png);
+  background: rgba(0, 0, 0, 0.103) url(/src/media/env-map.png);
   background-position: center;
   background-size: 1000px;
 }
 
 .projects-container .project .content.env-map:hover {
-  background: rgba(255, 255, 255, 0.103) url(/src/media/env-map.mp4);
+  background: rgba(0, 0, 0, 0.103) url(/src/media/env-map.mp4);
   background-position: center;
   background-size: 1000px;
 }
 
 .projects-container .project .content.SIFT-keypoints {
-  background: rgba(255, 255, 255, 0.103) url(/src/media/SIFT1.png);
+  background: rgba(0, 0, 0, 0.103) url(/src/media/SIFT1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 200px;
 }
 
 .projects-container .project .content.grade-calculator {
-  background: rgba(255, 255, 255, 0.103) url(/src/media/grade-calculator.png);
+  background: rgba(0, 0, 0, 0.103) url(/src/media/grade-calculator.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 350px;
 }
 
 .projects-container .project .content.grade-calculator:hover {
-  background: rgba(255, 255, 255, 0.103) url(/src/media/grade-calculator.mp4);
+  background: rgba(0, 0, 0, 0.103) url(/src/media/grade-calculator.mp4);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 350px;
 }
 
 .projects-container .project .content.neural-networks {
-  background: rgba(255, 255, 255, 0.103) url(/src/media/neural-network.png);
+  background: rgba(0, 0, 0, 0.103) url(/src/media/neural-network.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 450px;
 }
 
 .projects-container .project .content.pano-stitching {
-  background: rgba(255, 255, 255, 0.103) url(/src/media/pano-stitching.png);
+  background: rgba(0, 0, 0, 0.103) url(/src/media/pano-stitching.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 450px;
 }
 
 .projects-container .project .content.translink {
-  background: rgba(255, 255, 255, 0.103) url(/src/media/translink.png);
+  background: rgba(0, 0, 0, 0.103) url(/src/media/translink.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 450px;
 }
 
 .projects-container .project .content.tower-defense {
-  background: rgba(255, 255, 255, 0.103) url(/src/media/tower-defense.png);
+  background: rgba(0, 0, 0, 0.103) url(/src/media/tower-defense.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 350px;
 }
 
 .projects-container .project .content.smtp-pop3 {
-  background: rgba(255, 255, 255, 0.103) url(/src/media/smtp-pop3.png);
+  background: rgba(0, 0, 0, 0.103) url(/src/media/smtp-pop3.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 350px;

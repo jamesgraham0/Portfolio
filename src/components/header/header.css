@@ -25,15 +25,17 @@
   font-size: 28px;
   text-transform: uppercase;
   font-weight: 900;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   font-family: Poppins;
+  margin-bottom: 20px;
+  color: var(--color-primary);
 }
 
 .header-container h3 p {
   font-size: 15px;
 }
 
-.header-container h3 p span {
+.header-container p span {
   color: var(--color-primary);
   font-size: 20px;
 }
