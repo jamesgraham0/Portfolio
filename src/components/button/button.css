@@ -5,6 +5,16 @@
   margin-bottom: 200px;
   width: 60%;
   padding: 0;
+  transform: translate(-200px);
+  opacity: 0;
+  animation: fade-in 1s ease 1 0.5s forwards;
+}
+
+@keyframes fade-in {
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
 }
 
 .button-container .btn {

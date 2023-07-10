@@ -7,7 +7,7 @@ import { CgMail } from "react-icons/cg";
 function Contact() {
     return (
         <div id="contact" className="container contact-container">
-            <h1>Contact Me</h1>
+            <span className="quali-text">Contact Me</span>
             <div className="contact-links">
                 <a
                     href="https://github.com/jamesgraham0"
