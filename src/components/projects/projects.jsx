@@ -28,13 +28,13 @@ const projectData = [
     title: "Tower Defense",
     technologies: "Python | Pygame",
     image: tower_defense_img,
-    description: "A tower defense game that includes seamless waves of enemies that follow the path and trigger the action of your towers. The goal of the game is to defend your home-base for all of the waves using towers that you place. This game was an excuse to practice OOP best practices and get familiar with the Pygame library. I also created the artwork for this game and I really enjoy playing it!"
+    description: "A tower defense game that includes seamless waves of enemies that follow the path and trigger the action of your towers. The goal of the game is to defend your home-base for all of the waves using towers that you place. This game was an opportunity to practice OOP best practices and get familiar with the Pygame library. I also created the artwork for this game and I really enjoy playing it!"
   },
   {
     title: "Spotify logo",
     technologies: "Three.js | Blender | HTML",
     image: spotify_logo_img,
-    description: "In this project I created my own 3D model of the Spotify logo in Blender, which I have plan to integrate into my Spotify Votes app. I got the chance to mess around with different types of lighting and controls, to which I found ambient and orbital to function the best for my particular use-case. I really like how the coloured orbs fly around and cast dreamy light combinations onto the rotating logo."
+    description: "In this project I created my own 3D model of the Spotify logo in Blender, which I plan to integrate into my Spotify Votes app. I got the chance to mess around with different types of lighting and controls, to which I found ambient and orbital to function the best for my particular use-case. I really like how the coloured orbs fly around and cast dreamy light combinations onto the rotating logo."
   },
   {
     title: "Experimental Graphics",
