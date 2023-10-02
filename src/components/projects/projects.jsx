@@ -76,6 +76,21 @@ const projectData = [
 
 const Projects = () => {
   const [flippedIndex, setFlippedIndex] = useState(null);
+  const containerRef = React.useRef(null);
+
+  const scrollLeft = () => {
+    containerRef.current.scrollBy({
+      left: -containerRef.current.offsetWidth / 3,
+      behavior: "smooth"
+    });
+  };
+
+  const scrollRight = () => {
+    containerRef.current.scrollBy({
+      left: containerRef.current.offsetWidth / 3,
+      behavior: 'smooth'
+    });
+  };
 
   const handleCardClick = (index) => {
     if (flippedIndex === index) {
@@ -89,7 +104,7 @@ const Projects = () => {
     <div>
       <span className="quali-text">My Projects</span>
       <div className="directions"> click on a project to learn more about it*</div>
-      <div className="projects-container">
+      <div className="projects-container" ref={containerRef}>
         {projectData.map((project, index) => (
           <div
             key={index}
@@ -118,6 +133,12 @@ const Projects = () => {
             </div>
           </div>
         ))}
+        <div className="arrow left-arrow" onClick={scrollLeft}>
+          &lt;
+        </div>
+        <div className="arrow right-arrow" onClick={scrollRight}>
+          &gt;
+        </div>
       </div>
     </div>
   );
