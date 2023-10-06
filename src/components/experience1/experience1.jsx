@@ -11,7 +11,7 @@ function Experience1() {
       </div>
         <div className="experience1-description-container">
             <p className='experience1-description'>
-                I'm currently working as a software engineer intern on the AWS Payments - Collections 
+                I interned as a software engineer on the AWS Payments - Collections 
                 team in Vancouver, British Columbia.
             </p>
         </div>
