@@ -1,5 +1,5 @@
 import './home.css';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Buttons from '../button/button';
 import { BsMouse } from 'react-icons/bs';
 import image from '../images/me.jpg';
@@ -7,6 +7,11 @@ import Experiences from '../experiences/experiences';
 
 function Home() {
   const [isActive, setIsActive] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = image;
+  }, []);
 
   const handleClick = () => {
     setIsActive(!isActive);
@@ -27,7 +32,7 @@ function Home() {
           <span className='circle'></span>
           <span className='circle'></span>
         </div>
-        <div className='click-me-container'>
+        <div className='click-me-container' hidden={isActive}>
           <p className={`click-me ${isActive ? 'active' : ''}`}>Click me</p>
           <svg id="svg" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <path strokeLinecap="round" strokeLinejoin="round" className={`draw-arrow ${isActive ? 'active' : ''}`} d="M11.3,2.5c-5.8,5-8.7,12.7-9,20.3s2,15.1,5.3,22c6.7,14,18,25.8,31.7,33.1" />
@@ -47,7 +52,8 @@ function Home() {
       <h2 id="about" >
         <span>About Me</span> <br/>
         <p>
-          I study Computer Science at the University of British Columbia. I love to stay active, watch movies, and play my guitar! 
+          I'm a recent University of British Columbia graduate, where I studied Computer Science. At UBC I played varsity soccer, was an 
+          active member of the hacking club, and made many mistakes :) I'm currently looking for full-time software engineering positions (please hire me!).
         </p>
       </h2>
       <Experiences/>
