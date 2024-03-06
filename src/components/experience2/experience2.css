@@ -1,10 +1,9 @@
 .experience2-container {
-    margin: 15px;
-    padding: 15px;
-    border-radius: 20px;
     position: relative;
-    left: 35%;
-    top: 15px;
+    left: 40%;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
     background-color: rgba(99, 51, 230, 0.1);
     flex-direction: row;
     width: 60%;
@@ -20,5 +19,11 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    margin-bottom: 20px;
+}
+
+.experience-img2 {
+    border-radius: 10px;
+    margin: 10px;
+    width: 150px;
+    height: 85px;
 }

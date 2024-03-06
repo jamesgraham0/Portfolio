@@ -1,13 +1,11 @@
 .experience1-container {
-    margin: 15px;
+    position: relative;
     padding: 15px;
     border-radius: 20px;
-    position: relative;
     background-color: rgb(82, 225, 250, 0.1);
     width: 60%;
     height: calc(40%);
     transition: transform 0.2s linear;
-    margin-top: 30px;
 }
 
 .experience1-container:hover {
@@ -17,10 +15,11 @@
 .title-container1 {
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
 }
   
-.experience-img {
+.experience-img1 {
     border-radius: 10px;
     margin: 10px;
+    width: 150px;
+    height: 75px;
 }

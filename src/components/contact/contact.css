@@ -14,7 +14,7 @@
   font-size: 25px;
   top: 10px;
   padding-bottom: 5px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
   font-weight: 400;
   color: white;
   border-bottom: 2px solid var(--color-primary);
@@ -60,7 +60,7 @@
   display: flex;
   flex-direction: column;
   text-transform: capitalize;
-  font-family: "Open Sans";
+  font-family: "Inter";
   text-align: center;
 }
 
@@ -86,7 +86,7 @@
   .contact-container h1 {
     margin: 0 auto;
     font-size: 40px;
-    font-family: "Open Sans Condensed";
+    font-family: "Inter";
     font-weight: 400;
     color: var(--color-primary);
   }
@@ -128,7 +128,7 @@
     display: flex;
     flex-direction: column;
     text-transform: capitalize;
-    font-family: "Open Sans";
+    font-family: "Inter";
     text-align: center;
   }
 
@@ -155,7 +155,7 @@
   .contact-container h1 {
     margin: 0 auto;
     font-size: 20px;
-    font-family: "Open Sans Condensed";
+    font-family: "Inter";
     font-weight: 400;
     color: var(--color-primary);
   }
@@ -197,7 +197,7 @@
     display: flex;
     flex-direction: column;
     text-transform: capitalize;
-    font-family: "Open Sans";
+    font-family: "Inter";
     text-align: center;
   }
 
@@ -224,7 +224,7 @@
   .contact-container h1 {
     margin: 0 auto;
     font-size: 25px;
-    font-family: "Open Sans Condensed";
+    font-family: "Inter";
     font-weight: 400;
     color: var(--color-primary);
   }
@@ -266,7 +266,7 @@
     display: flex;
     flex-direction: column;
     text-transform: capitalize;
-    font-family: "Open Sans";
+    font-family: "Inter";
     text-align: center;
   }
 
@@ -293,7 +293,7 @@
   .contact-container h1 {
     margin: 0 auto;
     font-size: 22px;
-    font-family: "Open Sans Condensed";
+    font-family: "Inter";
     font-weight: 400;
     color: var(--color-primary);
   }
@@ -335,7 +335,7 @@
     display: flex;
     flex-direction: column;
     text-transform: capitalize;
-    font-family: "Open Sans";
+    font-family: "Inter";
     text-align: center;
   }
 

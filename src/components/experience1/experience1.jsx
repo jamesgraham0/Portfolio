@@ -6,7 +6,7 @@ function Experience1() {
   return (
     <div className='experience1-container'>
       <div className='title-container1'>
-        <img className="experience-img" src={image} alt='' />
+        <img className="experience-img1" src={image} alt='' />
         <h2 className="experience1-title">Amazon Web Services</h2>
       </div>
         <div className="experience1-description-container">

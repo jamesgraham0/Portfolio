@@ -167,7 +167,7 @@
   color: var(--color-secondary);
   margin-top: auto;
   font-size: 24px;
-  font-weight: 1000;
+  font-weight: 600;
   animation: fade 3s ease 1 0.5s forwards;
   opacity: 0;
 }
@@ -192,6 +192,8 @@ h2 {
   align-items: center;
   max-width: 60%;
   margin-top: 50px;
+  font-family: "Inter";
+  font-weight: bold;
 }
 
 h2 span {
@@ -199,15 +201,14 @@ h2 span {
   opacity: 0.8;
   padding-bottom: 5px;
   border-bottom: 2px solid var(--color-primary);
-  font-family: "Open Sans Condensed", sans-serif;
 }
 
 h2 p {
+  font-weight: 100;
   font-size: 20px;
   opacity: 1;
-  font-weight: 100;
   margin-top: 1px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter";
 }
 
 .scroll-down {
@@ -230,7 +231,6 @@ h2 p {
 .scroll-down h5 {
   font-size: 18px;
   text-transform: capitalize;
-  font-weight: 100;
 }
 
 .scroll-down .scroll {
@@ -302,13 +302,13 @@ h2 p {
     opacity: 0.8;
     padding-bottom: 5px;
     border-bottom: 2px solid var(--color-primary);
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: "Inter";
   }
 
   h2 p {
     font-size: 25px;
-    font-weight: 100;
-    font-family: "Open Sans", sans-serif;
+
+    font-family: "Inter";
   }
 }
 
@@ -376,13 +376,13 @@ h2 p {
     opacity: 0.8;
     padding-bottom: 5px;
     border-bottom: 2px solid var(--color-primary);
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: "Inter";
   }
 
   h2 p {
     font-size: 18px;
-    font-weight: 100;
-    font-family: "Open Sans", sans-serif;
+
+    font-family: "Inter";
   }
 
   .scroll-down {
@@ -462,13 +462,13 @@ h2 p {
     opacity: 0.8;
     padding-bottom: 5px;
     border-bottom: 2px solid var(--color-primary);
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: "Inter";
   }
 
   h2 p {
     font-size: 18px;
-    font-weight: 100;
-    font-family: "Open Sans", sans-serif;
+
+    font-family: "Inter";
   }
 }
 

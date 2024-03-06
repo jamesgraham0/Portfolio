@@ -6,7 +6,7 @@ function Experience2() {
     <div className='experience2-container'>
       <div className='title-container2'>
         <h2 className="experience2-title">Equitable Life of Canada</h2>
-        <img className="experience-img" src={image} alt='' />
+        <img className="experience-img2" src={image} alt='' />
       </div>
         <div className="experience2-description-container">
             <p className='experience2-description'>
