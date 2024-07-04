@@ -52,8 +52,7 @@ function Home() {
       <h2 id="about" >
         <span>About Me</span> <br/>
         <p>
-          I'm a recent University of British Columbia graduate, where I studied Computer Science. At UBC I played varsity soccer, was an 
-          active member of the hacking club, and made many mistakes :) I'm currently looking for full-time software engineering positions (please hire me!).
+          I'm a Software Engineer from Vancouver, British Columbia, who enjoys creating unique user experiences and having fun with software.
         </p>
       </h2>
       <Experiences/>
