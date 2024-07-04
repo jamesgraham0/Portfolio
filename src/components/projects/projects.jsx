@@ -78,20 +78,6 @@ const Projects = () => {
   const [flippedIndex, setFlippedIndex] = useState(null);
   const containerRef = React.useRef(null);
 
-  const scrollLeft = () => {
-    containerRef.current.scrollBy({
-      left: -containerRef.current.offsetWidth / 3,
-      behavior: "smooth"
-    });
-  };
-
-  const scrollRight = () => {
-    containerRef.current.scrollBy({
-      left: containerRef.current.offsetWidth / 3,
-      behavior: 'smooth'
-    });
-  };
-
   const handleCardClick = (index) => {
     if (flippedIndex === index) {
       setFlippedIndex(null);
@@ -133,12 +119,6 @@ const Projects = () => {
             </div>
           </div>
         ))}
-        <div className="arrow left-arrow" onClick={scrollLeft}>
-          &lt;
-        </div>
-        <div className="arrow right-arrow" onClick={scrollRight}>
-          &gt;
-        </div>
       </div>
     </div>
   );
