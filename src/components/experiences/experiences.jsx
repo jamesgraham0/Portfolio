@@ -22,8 +22,8 @@ function Experiences() {
       ],
       imageInfo: {
         path: frLogo,
-        height: "120px",
-        width: "180px",
+        height: "80px",
+        width: "120px",
       }
     },
     {
@@ -122,8 +122,8 @@ function Experiences() {
       ],
       imageInfo: {
         path: equitableLogo,
-        height: "50px",
-        width: "180px",
+        height: "40px",
+        width: "120px",
       }
     },
     {
@@ -142,8 +142,8 @@ function Experiences() {
       ],
       imageInfo: {
         path: utgLogo,
-        height: "70px",
-        width: "180px",
+        height: "50px",
+        width: "120px",
       }
     }
   ];

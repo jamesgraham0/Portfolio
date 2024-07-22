@@ -17,9 +17,9 @@
     margin-right: 20px;
 }
 
-.experience-container.right {
+/* .experience-container.right {
     margin-left: 20px;
-}
+} */
 
 .experience-duration {
     font-size: 1rem;
@@ -47,6 +47,20 @@
 @media (max-width: 780px) {
     .title-container {
         flex-direction: column;
+    }
+    .experience-container {
+        width: 105%;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 460px) {
+    .title-container {
+        flex-direction: column;
+    }
+    .experience-container {
+        width: 130%;
+        margin-right: 10px;
     }
 }
 
