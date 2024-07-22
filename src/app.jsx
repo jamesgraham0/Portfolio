@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Hi from "./components/hi/hi.jsx";
-import Navbar from "./components/navbar/navbar.jsx";
+// import Navbar from "./components/navbar/navbar.jsx";
 import Home from "./components/home/home.jsx";
 import About from "./components/about/about.jsx";
 import Contact from "./components/contact/contact.jsx";
@@ -21,7 +21,7 @@ const WebContent = () => {
       <Hi onButtonClick={handleButtonClick} />
       {showComponents && (
         <>
-          <Navbar />
+          {/* <Navbar /> */}
           <Home />
           <About />
           <Contact />
