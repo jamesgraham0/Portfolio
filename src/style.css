@@ -23,6 +23,7 @@ body {
   min-height: 100vh;
   font-family: "Inter";
   animation: move 1s linear infinite forwards;
+  overflow-x: hidden;
 }
 
 html {
@@ -47,6 +48,10 @@ body::after {
   width: 200px;
   background: rgb(255, 0, 234);
   filter: blur(150px);
+}
+
+#app-container {
+  width: 100vw;
 }
 
 .background-circle1 {
@@ -85,7 +90,6 @@ body::after {
 
 .container {
   border-radius: 10px;
-  width: var(80%);
   color: var(--text-primary);
   padding: 10px 30px;
   margin: 5px auto;

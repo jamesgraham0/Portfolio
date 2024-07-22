@@ -11,7 +11,7 @@
 
 .logo {
   position: inherit;
-  margin-top: -50px;
+  margin-bottom: 20px;
   height: 520px;
   width: 520px;
   display: flex;
@@ -215,7 +215,7 @@ h2 p {
   transform: rotate(90deg);
   position: absolute;
   right: 0;
-  top: 12%;
+  top: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
