@@ -2,7 +2,7 @@ import './button.css';
 
 function Buttons() {
     return (
-        <div className="button-container">
+        <div className="container button-container">
             <a href="#about" className="btn pri">
                 Learn more
             </a>

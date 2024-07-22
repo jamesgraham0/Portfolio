@@ -14,7 +14,7 @@ const WebContent = () => {
   };
 
   return (
-    <div id="app-container">
+    <>
       <div className="background-circle1"></div>
       <div className="background-circle2"></div>
       <div className="background-circle3"></div>
@@ -28,7 +28,7 @@ const WebContent = () => {
           <Footer />
         </>
       )}
-    </div>
+    </>
   );
 };
 
