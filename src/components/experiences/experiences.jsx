@@ -154,7 +154,7 @@ function Experiences() {
       <div className="timeline-container">
       <div className="timeline">
       {experienceData.map((experience, index) => {
-        const positionLeft = index % 2 === 0 ? 'left' : 'right';
+        const positionLeft = 'right';
         return (
             <div className={`experience-content-container ${positionLeft}`} key={index}>
                 <h3 className={`experience-duration ${positionLeft}`}>{experience.duration}</h3>

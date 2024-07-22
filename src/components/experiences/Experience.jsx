@@ -1,9 +1,20 @@
 import './Experience.css';
+import { useState } from 'react';
 
-function Experience({ id, imageInfo, title, company, employmentType, responsibilities, positionLeft }) {    
+function Experience({ id, imageInfo, title, company, employmentType, responsibilities, positionLeft }) {
+    const [isDetailsVisible, setIsDetailsVisible] = useState(false);
+
+    const toggleDetails = () => {
+        setIsDetailsVisible(!isDetailsVisible);
+    };
+
+    const hideDetails = () => {
+        setIsDetailsVisible(false);
+    };
+
     return (
         <div className={`experience-container ${positionLeft}`}>
-            <div className='title-container'>
+            <div className='title-container' onClick={toggleDetails}>
                 <img className="experience-img" src={imageInfo.path} alt={`Work ${id}`} style={
                     {
                         height: imageInfo.height,
@@ -16,13 +27,15 @@ function Experience({ id, imageInfo, title, company, employmentType, responsibil
                     <p className="experience-employmentType">{employmentType}</p>
                 </div>
             </div>
-            <div className="experience-details-container">
-                <ul className="experience-responsibilities">
-                    {responsibilities?.map((responsibility, index) => (
-                        <li key={index}>{responsibility}</li>
-                    ))}
-                </ul>
-            </div>
+            {isDetailsVisible && (
+                <div className="experience-details-container" onClick={hideDetails}>
+                    <ul className="experience-responsibilities">
+                        {responsibilities?.map((responsibility, index) => (
+                            <li key={index}>{responsibility}</li>
+                        ))}
+                    </ul>
+                </div>
+            )}
         </div>
     );
 }
