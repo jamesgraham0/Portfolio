@@ -51,7 +51,7 @@ function Hi({ onButtonClick }) {
   };
 
   return (
-    <div id='home' className={`hi-container ${slideToTop ? 'slide-up' : ''}`} style={{ height: containerHeight, backgroundColor: containerBackgroundColor }}>
+    <div className={`hi-container ${slideToTop ? 'slide-up' : ''}`} style={{ height: containerHeight, backgroundColor: containerBackgroundColor }}>
       <h1 data-value="Hi, I'm James. Welcome to my portfolio">
         Hi, I'm James. Welcome to my portfolio
       </h1>

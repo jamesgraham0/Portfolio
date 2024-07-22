@@ -16,10 +16,6 @@
   --color-primary-light: rgba(82, 197, 250, 0.644);
   --color-secondary: rgb(99, 51, 230);
   --color-secondary-light: rgba(39, 17, 233, 0.274);
-
-  --pc-width: 88%;
-  --tab-width: 90%;
-  --phone-width: 100%;
 }
 
 body {
@@ -89,17 +85,11 @@ body::after {
 
 .container {
   border-radius: 10px;
-  width: var(--pc-width);
-  color: var(--text-pril);
+  width: var(80%);
+  color: var(--text-primary);
   padding: 10px 30px;
   margin: 5px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media (max-width: 500px) {
-  .container {
-    width: ver(--phone-width);
-  }
 }
