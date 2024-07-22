@@ -11,7 +11,7 @@
 
 .logo {
   position: inherit;
-  margin-top: -50px;
+  margin-bottom: 20px;
   height: 520px;
   width: 520px;
   display: flex;
@@ -179,8 +179,8 @@
 }
 
 .click-me-container {
-  position: absolute;
-  top: 50px;
+  position: relative;
+  margin-bottom: 200px;
   animation: fade-in 1s ease 1 0.5s forwards;
 }
 
@@ -215,7 +215,7 @@ h2 p {
   transform: rotate(90deg);
   position: absolute;
   right: 0;
-  top: 12%;
+  top: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -239,6 +239,10 @@ h2 p {
 }
 
 @media (max-width: 820px) {
+  .scroll-down {
+    display: none;
+  }
+
   .home-container {
     position: relative;
     min-height: 100vh;
