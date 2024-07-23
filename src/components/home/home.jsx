@@ -52,28 +52,28 @@ function Home() {
       <h2 id="about" >
         <span>About Me</span> <br/>
         <p>
-          Hey there! I'm a Software Engineer from the Prairies of Canada! 🌾🇨🇦
+          Hi! I'm a Software Engineer from the Prairies of Canada! 🌾🇨🇦
         </p>
         <br/>
         <p>
           Recently, I graduated from the University of British Columbia with a Bachelor's degree in Computer Science. During my time there, I balanced playing Varsity Soccer with diving into a wide array of tech topics, including:
         </p>
         <ul className="columns">
-          <li>Software Engineering 💻</li>
-          <li>Cyber Security 🔒</li>
-          <li>Machine Learning 🤖</li>
-          <li>Artificial Intelligence 🧠</li>
-          <li>Full-Stack Web Development 🖥️</li>
-          <li>Data Structures and Algorithms 📚</li>
-          <li>Networking 🌐</li>
-          <li>Distributed Systems 🔮</li>
-          <li>Database Management Systems 🗃️</li>
-          <li>Computer Vision 📸</li>
-          <li>Hardware and OS 🕹️</li>
-          <li>Scientific Writing 📝</li>
-          <li>Graphics 🎨</li>
-          <li>Statistics 📊</li>
-          <li>Data Visualization 📈</li>
+          <li className="li-about">Software Engineering 💻</li>
+          <li className="li-about">Cyber Security 🔒</li>
+          <li className="li-about">Machine Learning 🤖</li>
+          <li className="li-about">Artificial Intelligence 🧠</li>
+          <li className="li-about">Full-Stack Web Development 🖥️</li>
+          <li className="li-about">Data Structures and Algorithms 📚</li>
+          <li className="li-about">Networking 🌐</li>
+          <li className="li-about">Distributed Systems 🔮</li>
+          <li className="li-about">Database Management Systems 🗃️</li>
+          <li className="li-about">Computer Vision 📸</li>
+          <li className="li-about">Hardware and OS 🕹️</li>
+          <li className="li-about">Scientific Writing 📝</li>
+          <li className="li-about">Graphics 🎨</li>
+          <li className="li-about">Statistics 📊</li>
+          <li className="li-about">Data Visualization 📈</li>
         </ul>
         <p>
           My mission is to create functional, safe, and engaging experiences that improve lives. I specialize in full-stack software development, UI/UX design, testing, and web security, but I'm also enthusiastic about leveraging my broad skill set (as evidenced above).

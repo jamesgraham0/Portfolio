@@ -31,7 +31,7 @@ function Experience({ id, imageInfo, title, company, employmentType, responsibil
                 <div className="experience-details-container" onClick={hideDetails}>
                     <ul className="experience-responsibilities">
                         {responsibilities?.map((responsibility, index) => (
-                            <li key={index}>{responsibility}</li>
+                            <li key={index} className="li-experience">{responsibility}</li>
                         ))}
                     </ul>
                 </div>

@@ -30,7 +30,7 @@
   margin: 15px 0px;
 }
 
-.columns li {
+.columns .li-about{
   font-size: 16px;
   margin-bottom: 10px;
 }
@@ -40,7 +40,7 @@
     columns: 2;
   }
 
-  li {
+  .li-about{
     font-size: 12px;
   }
 }
@@ -50,7 +50,7 @@
     columns: 2;
   }
 
-  li {
+  .li-about{
     font-size: 10px;
   }
 }
