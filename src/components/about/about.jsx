@@ -1,3 +1,7 @@
+/**
+ * Projects component should not be here, but it is here for now.
+ */
+
 import "./about.css";
 import Projects from "../projects/projects";
 import { Slide } from "react-awesome-reveal";

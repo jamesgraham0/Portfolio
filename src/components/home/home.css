@@ -316,7 +316,7 @@ h2 p {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
   .scroll-down {
     display: none;
   }
@@ -324,7 +324,7 @@ h2 p {
   .home-container {
     position: relative;
     min-height: 100vh;
-    padding: 150px 30px;
+    padding: 180px 30px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -335,8 +335,8 @@ h2 p {
 
   .logo {
     position: inherit;
-    height: 220px;
-    width: 220px;
+    height: 150px; /* Decreased from 180px */
+    width: 150px; /* Decreased from 180px */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -346,8 +346,8 @@ h2 p {
 
   .logo .hover-show {
     position: absolute;
-    height: 220px;
-    width: 220px;
+    height: 150px; /* Decreased from 180px */
+    width: 150px; /* Decreased from 180px */
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -358,8 +358,8 @@ h2 p {
 
   .logo .circle {
     position: absolute;
-    height: 75px;
-    width: 75px;
+    height: 55px; /* Decreased from 65px */
+    width: 55px; /* Decreased from 65px */
     border-radius: 50%;
     background-color: rgb(4, 4, 44);
     display: flex;
@@ -389,8 +389,97 @@ h2 p {
 
   h2 p {
     font-size: 18px;
-
     font-family: "Inter";
+  }
+
+  .logo .hover-show.active .circle:nth-child(1) {
+    background: url(../images/c-plus-plus.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translateX(140px) translateY(0px);
+  }
+  
+  .logo .hover-show.active .circle:nth-child(2) {
+    position: absolute;
+    transform: translateX(113px) translateY(82px);
+    background: url(../images/c.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .logo .hover-show.active .circle:nth-child(3) {
+    position: absolute;
+    transform: translateX(43px) translateY(133px);
+    background: url(../images/css.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .logo .hover-show.active .circle:nth-child(4) {
+    position: absolute;
+    transform: translateX(-43px) translateY(133px);
+    background: url(../images/html.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .logo .hover-show.active .circle:nth-child(5) {
+    position: absolute;
+    transform: translateX(-113px) translateY(82px);
+    background: url(../images/java.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .logo .hover-show.active .circle:nth-child(6) {
+    position: absolute;
+    transform: translateX(-140px) translateY(0px);
+    background: url(../images/js.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .logo .hover-show.active .circle:nth-child(7) {
+    position: absolute;
+    transform: translateX(-113px) translateY(-82px);
+    background: url(../images/webgl.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .logo .hover-show.active .circle:nth-child(8) {
+    position: absolute;
+    transform: translateX(-43px) translateY(-133px);
+    background: url(../images/python.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .logo .hover-show.active .circle:nth-child(9) {
+    position: absolute;
+    transform: translateX(43px) translateY(-133px);
+    background: url(../images/react.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .logo .hover-show.active .circle:nth-child(10) {
+    position: absolute;
+    transform: translateX(113px) translateY(-82px);
+    background: url(../images/ts.png);
+    background-size: 85%;
+    background-position: center;
+  }
+
+  #me-img {
+    position: absolute;
+    height: 173px;
+    width: 113px;
+    border-radius: 30%;
+    border: 2px solid var(--color-primary);
   }
 }
 
@@ -413,8 +502,8 @@ h2 p {
 
   .logo {
     position: inherit;
-    height: 180px;
-    width: 180px;
+    height: 120px; /* Decreased from 150px */
+    width: 120px; /* Decreased from 150px */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -424,8 +513,8 @@ h2 p {
 
   .logo .hover-show {
     position: absolute;
-    height: 180px;
-    width: 180px;
+    height: 120px; /* Decreased from 150px */
+    width: 120px; /* Decreased from 150px */
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -436,8 +525,8 @@ h2 p {
 
   .logo .circle {
     position: absolute;
-    height: 65px;
-    width: 65px;
+    height: 45px; /* Decreased from 55px */
+    width: 45px; /* Decreased from 55px */
     border-radius: 50%;
     background-color: rgb(4, 4, 44);
     display: flex;
@@ -467,7 +556,6 @@ h2 p {
 
   h2 p {
     font-size: 18px;
-
     font-family: "Inter";
   }
 }

@@ -26,6 +26,8 @@
 }
 
 h1 {
+  position: absolute;
+  top: 30%;
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 2px;
@@ -36,6 +38,7 @@ h1 {
   padding: 0rem clamp(1rem, 2vw, 3rem);
   overflow: hidden;
   width: 100vw;
+  text-align: center;
   overflow-wrap: break-word;
   text-align: center;
 }
@@ -45,7 +48,6 @@ h1 {
   outline: none;
   margin: 30px;
   background-color: transparent;
-  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -57,6 +59,8 @@ h1 {
   font-family: 'Space Mono', monospace;
   box-shadow: 0 0 10px rgba(82, 197, 250, 0.644);
   animation: pulse 2s ease-in-out infinite;
+  position: absolute;
+  bottom: 10%;
 }
 
 .glowing-button::before {
@@ -92,5 +96,13 @@ h1 {
   100% {
     transform: scale(0.9);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+@media (max-height: 400px) {
+  .glowing-button {
+    bottom: 0px;
+    width: 60px;
+    height: 60px;
+    font-size: 10px;
   }
 }

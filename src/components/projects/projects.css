@@ -15,24 +15,23 @@
 
 .projects-container {
   position: absolute;
-  left: 45%;
-  transform: translateX(-50%);
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 85%;
+  width: 90%;
   overflow-x: scroll;
   overflow-y: hidden;
   user-select: none;
   background-color: rgba(10, 6, 27, 0.757);
-  margin: 30px;
+  margin-top: 20px;
   border-radius: 20px;
+  padding: 30px;
 }
 
 .project {
   position: relative;
   height: 550px;
-  min-width: 40%;
+  min-width: 300px;
   background-color: rgb(1, 4, 17);
   margin: 15px;
   display: flex;
@@ -44,9 +43,15 @@
   border-radius: 20px;
 }
 
+.image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .projects-container .project:hover {
-  transform: scale(1.04);
+  transform: scale(1.025);
 }
 
 .projects-container .project.flipped {
@@ -79,18 +84,13 @@
 
 img {
   border-radius: 10px;
-  width: 100%;
-  height: 350px;
+  width: 90%;
+  height: 400px;
 }
 
 .project-description {
   transform: scaleX(-1);
   text-align: center;
-}
-
-.project .front .image {
-  width: 90%;
-  margin: 15px;
 }
 
 .project .front h3,
@@ -101,9 +101,36 @@ img {
 
 .project .front h4 {
   color: var(--color-primary);
+  font-size: 12px;
 }
 
 .project-description {
   text-align: center;
   margin: 10px;
+}
+
+@media (max-width: 620px) {
+  .projects-container {
+    width: 90%;
+    padding: 0;
+    margin: 20px;
+  }
+
+  .project {
+    margin: 15px;
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 500px) {
+  .projects-container {
+    width: 90%;
+    padding: 0;
+    margin: 20px 2px;
+  }
+
+  .project {
+    margin: 15px;
+    min-width: 250px;
+  }
 }
