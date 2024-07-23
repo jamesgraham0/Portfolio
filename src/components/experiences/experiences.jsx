@@ -150,7 +150,9 @@ function Experiences() {
 
   return (
     <div className='experiences-container'>
-      <span id='experience-quali-text' className='quali-text'>Experience</span>
+      <span id='experience-quali-text' className='quali-text'>Experience
+      <div className="directions"> *click on an experience to learn more about it</div>
+      </span>
       <div className="timeline-container">
       <div className="timeline">
       {experienceData.map((experience, index) => {

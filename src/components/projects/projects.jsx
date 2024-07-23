@@ -89,7 +89,7 @@ const Projects = () => {
   return (
     <div>
       <span className="quali-text">My Projects</span>
-      <div className="directions"> click on a project to learn more about it*</div>
+      <div className="directions">*click on a project to learn more about it</div>
       <div className="projects-container" ref={containerRef}>
         {projectData.map((project, index) => (
           <div

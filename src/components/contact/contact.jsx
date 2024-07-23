@@ -15,19 +15,17 @@ function Contact() {
                     target={"blank"}
                     >
                     <AiOutlineGithub className="icon" />
-                    <h2>
-                        github <span>jamesgraham0</span>
-                    </h2>
+                    <h2>Github</h2>
+                    <span>jamesgraham0</span>
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/james-graham-292873145/"
+                    href="https://www.linkedin.com/in/jamesgraham99"
                     className="contact linkedin"
                     target={"blank"}
                     >
                     <AiOutlineLinkedin className="icon" />
-                    <h2>
-                        linkedin <span>james graham</span>
-                    </h2>
+                    <h2>Linkedin</h2>
+                    <span>James Graham</span>
                 </a>
                 <a
                     href="mailto:jgraham.paul@gmail.com?subject=Hello%20James&body=We%20really%20like%20your%20portfolio!%20So%20much%20in%20fact,%20we%20want%20to%20offer%20you%20a%20high%20five.%20*SLAP*"
@@ -35,9 +33,8 @@ function Contact() {
                     target={"blank"}
                     >
                     <CgMail className="icon" />
-                    <h2>
-                        gmail <span>jgraham.paul@gmail.com</span>
-                    </h2>
+                    <h2>Gmail</h2>
+                    <span>jgraham.paul@gmail.com</span>
                 </a>
             </div>
         </div>

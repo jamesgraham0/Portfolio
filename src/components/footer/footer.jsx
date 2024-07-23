@@ -7,19 +7,13 @@ import { DiReact } from "react-icons/di";
 function Footer() {
     return (
         <div id="footer" className="container footer-container">
-            <div className="react">
-                <DiReact className="logo" />
-            </div>
-            <h1>
-                created using React
-                <a href="#home">
-                </a>
-            </h1>
+            <DiReact className="react-logo" />
+            <h1>Created Using React</h1>
             <div className="social-links">
                 <a href="https://github.com/jamesgraham0">
                     <TiSocialGithub className="social" />
                 </a>
-                <a href="https://www.linkedin.com/in/james-graham-292873145/">
+                <a href="https://www.linkedin.com/in/jamesgraham99">
                     <TiSocialLinkedin className="social" />
                 </a>
                 <a href="https://www.instagram.com/james___graham/">

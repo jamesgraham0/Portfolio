@@ -2,27 +2,29 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   min-height: 30vh;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.react {
-  padding: 10px;
-  margin: 20px auto;
-  justify-content: baseline;
-  align-items: center;
-}
-
-.react .logo {
+.react-logo {
   color: rgb(0, 255, 255);
   position: relative;
   height: 120px;
   width: 120px;
   background-color: none;
   animation: spin 10s linear infinite, change 20s linear infinite;
+}
+
+.container.footer-container h1 {
+  font-family: "Inter";
+  font-weight: 100;
+  font-size: 20px;
+  margin: 50px auto;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 @keyframes spin {
@@ -49,34 +51,6 @@
   }
 }
 
-.container.footer-container h1 {
-  font-family: "Inter";
-  font-weight: 100;
-  font-size: 25px;
-  margin: 0 auto;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.container.footer-container h2 {
-  font-family: "Inter";
-  font-weight: 100;
-  font-size: 20px;
-  margin-top: 15px;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  padding: 10px 20px;
-  border-radius: 5px;
-}
-
-.container.footer-container h2:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
 .social-links {
   padding: 10px;
   margin: 20px auto;
@@ -94,7 +68,8 @@
   padding: 10px;
   backdrop-filter: blur(10px);
   cursor: pointer;
-  transition: background 0.2s ease;
+  transition: 0.2s ease;
+  border-radius: 20%;
 }
 
 .social-links .social:hover {

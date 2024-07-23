@@ -1,6 +1,6 @@
 .experiences-container {
     position: relative;
-    width: 90%;
+    width: 100%;
     border-radius: 30px;
     margin: 20px 0px;
     padding-left: 2rem;
@@ -99,4 +99,40 @@
 /* Fix the circle for containers on the right side */
 .right::after {
     left: -16px;
+}
+
+@media (min-width: 1600px) {
+    .right::after {
+        left: -19px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .right::after {
+        left: -18px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .right::after {
+        left: -17px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .right::after {
+        left: -16px;
+    }
+}
+
+@media (max-width: 850px) {
+    .right::after {
+        left: -15px;
+    }
+}
+
+@media (max-width: 450px) {
+    .right::after {
+        left: -14px;
+    }
 }

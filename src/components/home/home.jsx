@@ -52,7 +52,43 @@ function Home() {
       <h2 id="about" >
         <span>About Me</span> <br/>
         <p>
-          I'm a Software Engineer from Vancouver, British Columbia, who enjoys creating unique user experiences and having fun with software.
+          Hey there! I'm a Software Engineer from the Prairies of Canada! 🌾🇨🇦
+        </p>
+        <br/>
+        <p>
+          Recently, I graduated from the University of British Columbia with a Bachelor's degree in Computer Science. During my time there, I balanced playing Varsity Soccer with diving into a wide array of tech topics, including:
+        </p>
+        <ul className="columns">
+          <li>Software Engineering 💻</li>
+          <li>Cyber Security 🔒</li>
+          <li>Machine Learning 🤖</li>
+          <li>Artificial Intelligence 🧠</li>
+          <li>Full-Stack Web Development 🖥️</li>
+          <li>Data Structures and Algorithms 📚</li>
+          <li>Networking 🌐</li>
+          <li>Distributed Systems 🔮</li>
+          <li>Database Management Systems 🗃️</li>
+          <li>Computer Vision 📸</li>
+          <li>Hardware and OS 🕹️</li>
+          <li>Scientific Writing 📝</li>
+          <li>Graphics 🎨</li>
+          <li>Statistics 📊</li>
+          <li>Data Visualization 📈</li>
+        </ul>
+        <p>
+          My mission is to create functional, safe, and engaging experiences that improve lives. I specialize in full-stack software development, UI/UX design, testing, and web security, but I'm also enthusiastic about leveraging my broad skill set (as evidenced above).
+        </p>
+        <br/>
+        <p>
+          In my spare time, I explore bug-bounty programs to stay sharp and contribute to internet security.
+        </p>
+        <br/>
+        <p>
+          I'm actively seeking new opportunities in the tech industry and am open to exciting ventures that come my way. Ideally, I'm looking for a role in software engineering or cyber security where I can apply my passion and skills.
+        </p>
+        <br/>
+        <p>
+          If you're seeking a dedicated, creative, and hard-working team player, I'm your guy! Check out my work experience below. 👇
         </p>
       </h2>
       <Experiences/>
