@@ -88,7 +88,7 @@ function Home() {
         </p>
         <br/>
         <p>
-          If you're seeking a dedicated, creative, and hard-working team player, I'm your guy! Check out my work experience below. 👇
+          If you're seeking a dedicated, creative, and hard-working team player, I'm your guy! Check out my resume <a href="https://drive.google.com/file/d/1tfxKnypViDqOY-04UzLqxxR1ZQiCTj4-/view" target='blank' style={{color:'red'}}>HERE</a> and work experience below. 👇
         </p>
       </h2>
       <Experiences/>
