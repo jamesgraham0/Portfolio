@@ -76,7 +76,7 @@ function Home() {
           <li className="li-about">Data Visualization 📈</li>
         </ul>
         <p>
-          My mission is to create functional, safe, and engaging experiences that improve lives. I specialize in full-stack software development, UI/UX design, testing, and web security, but I'm also enthusiastic about leveraging my broad skill set (as evidenced above).
+          My mission is to create functional, safe, and engaging experiences that improve lives. I specialize in full-stack software development, UI/UX design, testing, and web security, but I'm also enthusiastic about leveraging my broad skill set.
         </p>
         <br/>
         <p>
